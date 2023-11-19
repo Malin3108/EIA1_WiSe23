@@ -1,0 +1,51 @@
+
+html{background-color: lightpink;}
+
+h1 {
+    text-align: center;
+}
+
+.Intro {
+    position: relative;
+    float: left;
+    height: 30vh;
+    width: 33.33%; 
+    box-sizing: border-box;
+    border: 5mm;
+    border-style: groove;
+    border-color: black;
+    background-color: white;
+}
+
+.Middle {
+    position: relative;
+    float: left;
+    height: 30vh;
+    width: 33.33%; 
+    box-sizing: border-box;
+    border: 5mm;
+    border-style: groove;
+    border-color: black;
+    background-color: white;
+}
+
+.Outro {
+    position: relative;
+    float: left;
+    height: 30vh;
+    width: 33.33%; 
+    box-sizing: border-box;
+    border: 5mm;
+    border-style: groove;
+    border-color: black;
+    background-color: white;
+}
+
+.Intro img,
+.Middle img,
+.Outro img {
+    height: 100%; 
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
