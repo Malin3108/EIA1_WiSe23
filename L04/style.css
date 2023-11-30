@@ -1,5 +1,4 @@
-
-body{
+body {
     height: 100%;
     background-color: #444;
     display: flex;
@@ -7,7 +6,8 @@ body{
     flex-wrap: wrap;
     align-items: flex-start;
 }
-.container{
+
+.container {
     width: 400px;
     background-color: black;
     color: aliceblue;
@@ -16,40 +16,49 @@ body{
     margin-left: 5px;
     margin-top: 10px;
 }
-#container1, #container4{
-    height:200px;
-    padding-top:90px;
+
+#container1,
+#container4 {
+    height: 200px;
+    padding-top: 90px;
 }
-#container2, #container3{
-    height:100px;
+
+#container2,
+#container3 {
+    height: 100px;
     padding-top: 45px;
 }
+
 @media only screen and (min-width: 720px) {
-    body{
-        display:inline;
-        position:relative;
+    body {
+        display: inline;
+        position: relative;
         top: 0px;
         left: 0px;
     }
-    #container1{
-        height:600px;
+
+    #container1 {
+        height: 600px;
         width: 650px;
         margin-left: 10px;
         margin-top: -2px;
-        
+
     }
-    #container2{
-       height: 350px;
-       width: 600px;
-       margin-top: -690px;
-       margin-left: 670px;
+
+    #container2 {
+        height: 350px;
+        width: 600px;
+        margin-top: -690px;
+        margin-left: 670px;
     }
-    #container3{
+
+    #container3 {
         height: 240px;
         width: 250px;
         margin-left: 670px;
     }
-    #container4{
+
+    #container4 {
         height: 195px;
         width: 340px;
         margin-left: 930px;
